@@ -11,4 +11,4 @@ for i in range(0, len(list_of_integers)):
             list_of_integers[i+1], list_of_integers[ind] = list_of_integers[ind], list_of_integers[i+1]
     
 
-print(list_of_integers)
+print(f'Список за спаданням, потім за частотою - {list_of_integers}')
